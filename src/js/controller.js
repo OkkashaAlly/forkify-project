@@ -164,6 +164,7 @@ async function controlUploadRecipe(newRecipe) {
 }
 
 (function () {
+  console.log('Welcome to the Application :) || By Okkasha Ally';
   bookmarksView.addHandlerRender(controlLocalStorage);
   recipeView.renderInitMessage();
   recipeView.addHandlerRender(controlRecipe);
