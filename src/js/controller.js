@@ -173,3 +173,7 @@ async function controlUploadRecipe(newRecipe) {
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlUploadRecipe);
 })();
+
+function newFeature(a, b) {
+  return a + b;
+}
